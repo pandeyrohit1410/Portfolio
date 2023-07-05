@@ -5,7 +5,7 @@ const Header = () => {
   return (
     <>
     <div className='sticky absolute backdrop-blur-lg top-0 left-0 bg-[#5765bda1] w-[100] rounded-b-lg p-4 shadow-sm flex flex-row justify-between'>
-        <div className='flex flex-row gap-2 items-center'>
+        <div className='flex flex-row gap-2 items-center'>  
         <p><FaYinYang className='text-2xl text-white'/></p>
         <p className='text-lg  sm:text-2xl font-semibold font-popins uppercase'> Rohit </p>
         </div>

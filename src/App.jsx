@@ -15,11 +15,11 @@ function App() {
     <div className="App">
       <Header/>
       <Hero/>
-      <About className='mt-5'/>
-      <Projects className='mt-5'/>
-      <Skills className='mt-5'/>
-      <Contact className='mt-5'/>
-      <Footer className = 'mt-5'/>
+      <About />
+      <Projects/>
+      <Skills />
+      <Contact />
+      <Footer />
     </div>
   )
 }

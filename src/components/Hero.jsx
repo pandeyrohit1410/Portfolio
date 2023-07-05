@@ -4,7 +4,7 @@ import {SiGeeksforgeeks} from 'react-icons/si'
    
 const Hero = () => {
   return (
-    <div className='container flex flex-row shadow-md rounded bg-[#5765bda1] p-15 mt-4 rounded-r-3xl' id='home'>
+    <div className='flex flex-row shadow-md rounded bg-[#5765bda1] p-15 mt-4 rounded-r-3xl' id='home'>
         <div className='bg-gray-200 items-center rounded-r-3xl shadow-lg overflow-x-auto'>
             <img src='../src/assets/Rohit.png' alt='Photo' className='rounded-r-md backdrop-blur-lg'/>
         </div>
@@ -12,7 +12,7 @@ const Hero = () => {
             <p className='font-poppins text-3xl break-normal font-bold tracking-wider'>Hey! I'm Rohit Pandey</p>
             <small className='text-gray-100 mt-2'>On a Mission To Code 2 Hours Everyday For 365 days</small>
             
-                <a href="../src/assets/Rohit Pandey CV.pdf">
+                <a href="../src/assets/Rohit_Pandey_CV">
                     <button className='bg-[#282e47] flex flex-row gap-2 hover:bg-[#343744ab] text-white font-bold py-2 px-4 rounded-full mt-[20px]'>
                <BsDownload className='text-xl'/> <p>Download CV</p>
                </button></a>
